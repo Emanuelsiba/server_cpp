@@ -1,0 +1,11 @@
+[
+{
+  "directory": "/home/qwerty/Documents/learncpp/server_cpp",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-Iinclude", "-I", "/home/qwerty/.xmake/packages/c/cpp-httplib/v0.22.0/d83e67dbf219462a9246234a666dd1ef/include", "-DNDEBUG", "-o", "build/.objs/server_cpp/linux/x86_64/release/src/server.cpp.o", "src/server.cpp"],
+  "file": "src/server.cpp"
+},
+{
+  "directory": "/home/qwerty/Documents/learncpp/server_cpp",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-Iinclude", "-I", "/home/qwerty/.xmake/packages/c/cpp-httplib/v0.22.0/d83e67dbf219462a9246234a666dd1ef/include", "-DNDEBUG", "-o", "build/.objs/server_cpp/linux/x86_64/release/src/main.cpp.o", "src/main.cpp"],
+  "file": "src/main.cpp"
+}]

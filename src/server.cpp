@@ -1,3 +1,4 @@
+#include <cstdlib>
 #include <iostream>
 #include "server.hpp"
 #include <httplib.h>
@@ -57,7 +58,7 @@ void start_server() {
 
     Server server;
 
-    fs::path base_dir = "/path/";
+    fs::path base_dir = std::getenv("HOME");
     // std::cout << "Enter the path\n";
     // std::cin >> base_dir;
 
